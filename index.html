@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="fc flex">
+        <div class="flexy"></div>
+        <div class="search-container">
+            <form id="search-box">
+                <h2>SEARCH YOUR FAVOURITE MOVIES</h2>
+                <input id="search" type="text" placeholder="Search here...">
+                <input type="submit" value="Search">
+            </form>
+            <div class="flex">
+                <div class="flexy"></div>
+                <div class="tray">
+                    <form>
+                        <input class="cc" onclick="changeColor('#888')" type="radio" name="color">
+                        <input class="cc" onclick="changeColor('#f05')" type="radio" name="color">
+                        <input class="cc" onclick="changeColor('#05f')" type="radio" name="color">
+                        <input class="cc" onclick="changeColor('#001')" type="radio" name="color">
+                        <input class="cc" onclick="changeColor('#fae')" type="radio" name="color">
+                    </form>
+                </div>
+                <div class="flexy"></div>
+            </div>
+            <div id="searched"></div>
+        </div>
+        <div class="flexy"></div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
